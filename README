@@ -1,48 +1,33 @@
-# Student Management System
+# 🎓 Student Management System
 
-A **simple desktop application** built using Python and CustomTkinter for managing student information. It allows users to add, edit, delete, search, and update student records, all stored in a JSON file. The app also supports dark/light theme switching.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-GUI-green)
+![Platform](https://img.shields.io/badge/Platform-Desktop-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
----
-
-## Features
-
-* Add Student: Input Name, Roll No, Class, and Course to add a student.
-* Edit & Update: Select a student to edit details and save changes.
-* Delete: Remove student records from the system.
-* Search: Search by student name or roll number.
-* Refresh Table: Reload the table to display all students.
-* Clear Fields: Clear input fields quickly.
-* Dark/Light Mode: Toggle between dark and light themes.
-* Persistent Storage: Student records are saved in students.json.
+A **simple desktop application** built using Python and CustomTkinter for managing student information.  
+It allows users to **add, edit, delete, search, and update student records**, all stored in a JSON file.  
+The app also supports **dark/light theme switching**.
 
 ---
 
-## Running on Kali Linux (Recommended)
+## 🚀 Features
 
-**If you are using Kali Linux, it is recommended to run the project inside a virtual environment.
+- ➕ **Add Student**: Input Name, Roll No, Class, and Course to add a student  
+- ✏️ **Edit & Update**: Select a student to edit details and save changes  
+- ❌ **Delete**: Remove student records from the system  
+- 🔍 **Search**: Search by student name or roll number  
+- 🔄 **Refresh Table**: Reload the table to display all students  
+- 🧼 **Clear Fields**: Clear input fields quickly  
+- 🌓 **Dark/Light Mode**: Toggle between dark and light themes  
+- 💾 **Persistent Storage**: Student records are saved in `students.json`  
 
-### 1.Activate Virtual Environment
+---
 
+## 🐧 Running on Kali Linux (Recommended)
+
+**Use a virtual environment for best results**
+
+### 1️⃣ Activate Virtual Environment
 ```bash
 source venv/bin/activate
-```
-
-### 2.Run The Application
-
-```bash
-python3 studentManegament.py
-```
-
----
-
-## Screenshots
-
----
-
-## Author
-
- <h5 style="color:blue">Hardik</h5>
-
----
-
-## Star the repository if you find this project helpful
