@@ -46,20 +46,32 @@ def add(): #add the student
     Class.delete(0, "end")
     save()
     
-def refresh_view(): #refresh the table
+def refresh_view(data=None): #refresh the table
     student_table.delete(*student_table.get_children())
-
-    for student in students:
-        student_table.insert(
-            "",
-            "end",
-            values=(
-                student["Rollno"],
-                student["Name"],
-                student["Class"],
-                student["Course"]
+    if data:
+        for student in data:
+            student_table.insert(
+                "",
+                "end",
+                values=(
+                    student["Rollno"],
+                    student["Name"],
+                    student["Class"],
+                    student["Course"]
+                )
             )
-        )
+    else:
+        for student in students:
+            student_table.insert(
+                "",
+                "end",
+                values=(
+                    student["Rollno"],
+                    student["Name"],
+                    student["Class"],
+                    student["Course"]
+                )
+            )
 
 def delete():#delete the student info
     confirm=messagebox.askyesno("Delete","Do you want delete?")
@@ -124,6 +136,11 @@ def clearField():#clear input fields
     Class.delete(0, "end")
     course.delete(0, "end")
 
+def searchStudent():
+    val=searchName.get().lower()
+    filterDAta= [s for s in students if val in s["Name"].lower() or val in s["Rollno"]]
+    refresh_view(filterDAta)
+    
 def toggleTheme(): # change the theme 
     global THEME
     if THEME =="dark" :
@@ -185,7 +202,8 @@ search_button=ctk.CTkButton(
     fg_color="lightgreen",
     height=30,
     width=50,
-    text_color="black"
+    text_color="black",
+    command=searchStudent
 )
 search_button.grid(
     row=0,
