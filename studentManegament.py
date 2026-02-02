@@ -130,7 +130,6 @@ def toggleTheme(): # change the theme
         THEME = "light"
     else :
         THEME ="dark"
-    print(THEME)
     ctk.set_appearance_mode(THEME)
     theme_btn.configure(text=THEME.upper())
 
