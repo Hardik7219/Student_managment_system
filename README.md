@@ -36,6 +36,8 @@ python3 studentManegament.py
 ---
 
 ## Screenshots
+<img width="908" height="523" alt="Screenshot_20260202_180225" src="https://github.com/user-attachments/assets/a283eb6b-85df-478e-b5ef-9317c9a1de3a" />
+<img width="903" height="533" alt="Screenshot_20260202_180244" src="https://github.com/user-attachments/assets/f5a3bfa6-28c6-4fef-a954-c8f17ccdc5b5" />
 
 ---
 
