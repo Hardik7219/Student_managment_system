@@ -300,7 +300,7 @@ Name.grid(
 )
 rollNo=ctk.CTkEntry(
     field_frame,
-    placeholder_text="rollNo",
+    placeholder_text="RollNo",
     width=290,
     height=30
 )
@@ -312,7 +312,7 @@ rollNo.grid(
     )
 course=ctk.CTkEntry(
     field_frame,
-    placeholder_text="course",
+    placeholder_text="Course",
     width=290,
     height=30
 )
@@ -364,7 +364,7 @@ add_button.grid(
 
 delete_button=ctk.CTkButton(
     option_frame,
-    text="delete",
+    text="Delete",
     width=100,
     command=delete
 )
@@ -403,7 +403,7 @@ update_button.grid(
 
 clear_button=ctk.CTkButton(
     option_frame,
-    text="clear",
+    text="Clear",
     width=100,
     command=clearField
 )
