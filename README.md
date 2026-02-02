@@ -21,13 +21,32 @@ A **simple desktop application** built using Python and CustomTkinter for managi
 
 **If you are using Kali Linux, it is recommended to run the project inside a virtual environment.
 
-### 1.Activate Virtual Environment
+### 1 Clone the Repository
+
+```bash
+git clone https://github.com/Hardik7219/Student_managment_system
+cd Student_managment_system
+```
+
+### 2 Create Virtual Environment
+
+```bash
+python3 -m venv venv
+```
+
+### 3 Activate Virtual Environment
 
 ```bash
 source venv/bin/activate
 ```
 
-### 2.Run The Application
+### 4 Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5 Run The Application
 
 ```bash
 python3 studentManegament.py
@@ -36,10 +55,9 @@ python3 studentManegament.py
 ---
 
 ## Screenshots
-<div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center">
+
  <img width="608" height="323" alt="Screenshot_20260202_180225" src="https://github.com/user-attachments/assets/a283eb6b-85df-478e-b5ef-9317c9a1de3a" />
  <img width="603" height="333" alt="Screenshot_20260202_180244" src="https://github.com/user-attachments/assets/f5a3bfa6-28c6-4fef-a954-c8f17ccdc5b5" />
-</div>
 
 ---
 
