@@ -1,7 +1,7 @@
 [
     {
         "Rollno": "148",
-        "Name": "Parmar Hardi Mangalbhai",
+        "Name": "Parmar Hardik Mangalbhai",
         "Class": "sy",
         "Course": "BCA "
     },
@@ -10,5 +10,11 @@
         "Name": "Parmar Ramesh manubhii",
         "Class": "ty",
         "Course": "Bcom"
+    },
+    {
+        "Rollno": "148",
+        "Name": "Parmar Ramesh manshbhii",
+        "Class": "fy",
+        "Course": "Msc"
     }
 ]

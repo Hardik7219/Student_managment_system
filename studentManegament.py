@@ -1,8 +1,6 @@
 import customtkinter as ctk
 from tkinter import ttk
 from tkinter import messagebox
-from tkinter import filedialog
-from tkinter import ttk
 import json
 import os
 
